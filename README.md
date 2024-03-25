@@ -97,15 +97,13 @@ Options:
 ```
 QRGenerator -t "Hello World" -p qrcode.png
 ```
-![7fc67a2e-74a2-49b4-936e-7eaf9025fca9](https://github.com/jere344/QRCodeGenerator/assets/86294972/443f9f33-2e15-4154-b42f-a25a813ab688)
-
+<img src="https://github.com/jere344/QRCodeGenerator/assets/86294972/443f9f33-2e15-4154-b42f-a25a813ab688" width="300px" height="300px">
   
 #### Avec couleur de fond et de module
 ```
 QRGenerator -t "Hello World" -s 10 -p qrcode.png -pc #FF0000 -bc #ffffcf 
 ```
-![9fac489f-13eb-4d46-818b-e3735563bb95](https://github.com/jere344/QRCodeGenerator/assets/86294972/c96f7b5b-5085-4b3e-b864-d644fed7cd6e)
-
+<img src="https://github.com/jere344/QRCodeGenerator/assets/86294972/c96f7b5b-5085-4b3e-b864-d644fed7cd6e" width="300px" height="300px">
   
 #### Avec logo
 ```
@@ -116,8 +114,15 @@ QRGenerator -t "Hello World" -s 20 -p qrcode.png -pc #FF0000 -bc #ffffcf -e H -l
 ```
 QRGenerator -t "Hello World" -s 10 -p qrcode.png -pc #FF0000 -bc #ffffcf -e H -v 5 -em Byte -m 1 -l logo.png -ls circle+shadow
 ```
-![7cfae556-f7f6-4921-85f2-ae164ea37a46](https://github.com/jere344/QRCodeGenerator/assets/86294972/cacab301-46e4-480c-ae33-32fc97531c5a)
+<img src="https://github.com/jere344/QRCodeGenerator/assets/86294972/cacab301-46e4-480c-ae33-32fc97531c5a" width="400px" height="400px">
 
+
+*Note : Ici le logo et l'ombre semblent de basse qualités parce que l'échelle de resolution résolution du QR code est basse par rapport à celle du logo. 
+Avec une échelle plus élevée :
+```
+QRGenerator -t "Hello World" -s 50 -p qrcode.png -pc #2d9e2e -bc #d9ffda -e H -v 5 -em Byte -m 1 -l logo.png -ls circle+shadow
+```
+<img src="https://github.com/jere344/QRCodeGenerator/assets/86294972/02a6c013-bccb-4906-bd84-23c0525943a7" width="400px" height="400px">
   
 ## DOCUMENTATION
   
