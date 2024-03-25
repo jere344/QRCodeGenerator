@@ -1,5 +1,5 @@
 # QRCodeGenerator
-Jeremy Guerin & Olivier Bergeron-Houde
+[@jere344](https://www.github.com/jere344) & [@olivierbh2](https://www.github.com/olivierbh2)
 
 Une application de génération avancée de codes QR, avec interface graphique ou console.
 
